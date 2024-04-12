@@ -49,6 +49,18 @@ footer  h2 {
     padding: 0 10rem 0 10rem;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
 .bg-white {
     background: white;
 }
@@ -61,17 +73,14 @@ footer  h2 {
     background: #4f5d8c;
 }
 
+.flex-justify-align-center {
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-column {
     text-align: center;
     align-content: flex-start;
     justify-content: center;
     flex-direction: column;
-}
-
-.flex{
-    display: flex;
-}
-
-.justify-space-between {
-    justify-content: space-between;
 }
