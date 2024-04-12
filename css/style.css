@@ -9,7 +9,7 @@
 /* impostazioni generali */
 
 body {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: white;
     background-color: darkgray;
 }
@@ -18,7 +18,6 @@ ul {
     padding: 1rem;
     list-style: none;
     display: flex;
-    align-items: auto;
     justify-content: space-between;
 }
 
@@ -46,7 +45,7 @@ footer  h2 {
 /* impostazioni classe */
 
 .padding-10rem {
-    padding: 0 10rem 0 10rem;
+    padding: 1rem 10rem 0 10rem;
 }
 
 .text-center {
