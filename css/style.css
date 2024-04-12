@@ -27,10 +27,6 @@ header {
     background-size: cover;
 }
 
-header div:first-child {
-    padding: 2rem;
-}
-
 main {
     color: black;
 }
