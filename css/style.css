@@ -15,10 +15,11 @@ body {
 }
 
 ul {
-    padding: 1rem;
+    padding: 1rem 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 48%;
 }
 
 header {
