@@ -6,6 +6,8 @@
     margin: 0;
 }
 
+/* impostazioni generali */
+
 body {
     color: white;
 }
@@ -13,15 +15,28 @@ body {
 ul {
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 38%;
+    align-items: auto;
+    justify-content: space-between;
 }
 
 header {
     background: no-repeat url("../img/jumbo.png");
     background-size: cover;
 }
+
+footer {
+    background-color: #23272a;
+}
+
+hr {
+    border: 1px solid #4f5d8c;
+}
+
+footer  h2 {
+    color: #7289da;
+}
+
+/* impostazioni classe */
 
 .flex-column {
     text-align: center;
@@ -34,6 +49,6 @@ header {
     display: flex;
 }
 
-.justify-space-around {
-    justify-content: space-around;
+.justify-space-between {
+    justify-content: space-between;
 }
