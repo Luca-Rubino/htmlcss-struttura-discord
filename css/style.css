@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body {
+    color: white;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -15,14 +19,21 @@ ul {
 }
 
 header {
-    background-color: #05c8fd;
+    background: no-repeat url("../img/jumbo.png");
+    background-size: cover;
 }
 
-.box-block {
+.flex-column {
     text-align: center;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.flex-space-around {
+.flex{
     display: flex;
+}
+
+.justify-space-around {
     justify-content: space-around;
 }
