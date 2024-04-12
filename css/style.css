@@ -31,6 +31,10 @@ header div:first-child {
     padding: 2rem;
 }
 
+main {
+    color: black;
+}
+
 footer {
     background-color: #23272a;
 }
